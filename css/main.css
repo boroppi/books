@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/*Get rid of default browser setttings*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  background-image: url("../images/old-letters-436501_1920.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+}
+
+form > div > label {
+	font-weight:bold;
+}
+
+div.col-3 > img {
+	height:150px;
+	max-width:200px;
+}
+
+
+
+/*Set relative position so then buttons inside can stay where I want them*/
+.container {
+  position: relative;
+  background: rgba(255,255,255,0.8);
+  -webkit-box-shadow: 0 0 10px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0 0 10px 20px rgba(255,255,255,0.8);
+  box-shadow: 0 0 10px 20px rgba(255,255,255,0.8);
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+
+}
+.tablecontainer {
+  margin: 0 auto;
+  padding: 0 150px;  
+}
+
+.table
+{
+	background: rgba(255,255,255,0.9);
+	-webkit-box-shadow: 0 0 10px 20px rgba(255,255,255,0.9);
+	-moz-box-shadow: 0 0 10px 20px rgba(255,255,255,0.9);
+	box-shadow: 0 0 10px 20px rgba(255,255,255,0.9);
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	font-weight:bold;
+	border:3px solid black;
+}
+.table > thead {
+	background:rgba(255,200,100,0.3);
+	border-bottom: 3px solid black;
+	text-transform:uppercase;
+}
+
+.btn.action {
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+/*so that it stay top right corner of its parent*/
+.addnewreview {
+  position: absolute;
+  right: 0px;
+}
+/*so that it stay top right corner of its parent*/
+.view-list-of-movies {
+  position: absolute;
+  right: 0px;
+}
+
+.row {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.title {
+  font-size:34px;
+  padding: 15px 0;
+  text-decoration:italic;
+}
+.title:after{
+	background-color: #007bff;
+    width: 100px;
+    height: 3px;
+    display: block;
+    content: "";
+}
+
+.reviewed-by {
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 10px;
+  margin-bottom: -10px;
+  text-align: end;
+  text-decoration: underline;
+}
+
+/*Styling review text*/
+.review-p, .blue {
+  font-weight: 500;
+  font-size: 18px;
+  color: #00198c;
+  font-style: italic;
+  text-align: justify;
+}
+
+.lead{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+

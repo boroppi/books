@@ -1,0 +1,24 @@
+- Some info on my application:
+
+	HomePage: books.php
+
+	Page to add book: addbook.php // this is accessed from books.php with a button
+
+	Page to Edit books: editbooks.php // this is not accessed via link... because I thought accessing this page should later
+	become available via some login information and visible to only admin account. I am guessing we are going to
+	implement this next.
+
+	Js scripts are located in scripts folder.
+	
+	CSS: using bootstraps cdn which require internet connection at least once to load I believe.
+
+- I have chosen OOP approach to handle my database connection because I found that some companies
+ are looking for people that has OOP knowledge with PHP and I wanted to improve myself on this subject
+and It is kind of simpler to call connect and disconnect method and keep the code maintainable
+
+
+- I had to research to implement ajax form posting, Encountered many problems some were very little but
+was not easy to detect and cost me couple hours to find out what the problem was... the problem was that when 
+sending single data for the data part in ajax function It should not include curly braces... 
+after finding out that and debugging what I receive on php script via chrome's network tab in dev console
+It was easy to figure out the rest of the bugs.
